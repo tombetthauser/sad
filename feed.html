@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Studio Arts Directory</title>
+	<link rel="stylesheet" type="text/css" href="search.css">
+	<link rel="shortcut icon" href="icon5.png">
+	<meta name="viewport" content="width=device-width, initial-scale=0.75">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="faker.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<a href="index.html">
+			<div id="title">
+				Studio Arts Directory
+				<img id="loadGif" src="load.gif">
+			</div>
+		</a>
+		<div class="search">
+			<input onClick="window.location.reload()" type="text" name="" placeholder="" title="search by artist name, city, education and more...">
+		</div>
+		<div class="links">
+			<a href="#" class="disabled">login</a>
+			<a href="#" class="disabled">register</a>
+			<br>
+		</div>
+		<p id="displayText">
+			Generating search results...
+		</p>
+	</div>
+
+	<div id="container2">
+	</div>
+
+	<div id="container3">
+		<a class="disabled">< previous page</a>
+		<a class="disabled">next page ></a>
+	</div>
+
+	<script type="text/javascript" src="artist.js"></script>
+	<!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+</body>
+</html>

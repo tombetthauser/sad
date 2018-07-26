@@ -1,15 +1,14 @@
 var num = 0;
-
-var college = "";
-var domain = "";
 var mfa = 0;
 var year = 0;
-
+var city = "";
+var domain = "";
+var college = "";
 var firstName = "";
 var lastName = "";
 var website = "";
-var city = "";
 var school = "";
+var msg = new SpeechSynthesisUtterance('');
 
 for(var i = 0; i <50; i++){
 	createContent();

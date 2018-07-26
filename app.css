@@ -67,3 +67,15 @@ input {
 	width: 250px;
 	max-width: 50%;
 }
+
+.disabled {
+	opacity: .6;
+	cursor: not-allowed;
+	transition: .1s;
+}
+
+.disabled:hover {
+	opacity: .7;
+	cursor: not-allowed;
+	transition: .1s;
+}

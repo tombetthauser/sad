@@ -23,12 +23,21 @@ hr {
  }
 
 #title {
+	color: black;
 	font-family: sans-serif;
 	font-size: 25px;
 	font-weight: 100;
 	letter-spacing: .325vw;
 	line-height: 50px;
 	opacity: 1;
+	text-decoration: none;
+	transition: .2s;
+}
+
+#title:hover {
+	color: black;
+	opacity: .7;
+	transition: .2s;
 	text-decoration: none;
 }
 
@@ -64,7 +73,14 @@ a {
 	opacity: .4;
 }
 
-a:hover{
+.addedLink {
+	color: #000;
+	text-decoration: none;
+	margin-left: .25%;
+	opacity: .4;
+}
+
+.addedLink:hover{
 	text-decoration: underline;
 }
 
@@ -115,4 +131,24 @@ p {
 	background-color: rgba(0,0,0,.1);
 	color: white;
 	font-size: 15px;
+}
+
+#loadGif {
+	width: 20px;
+	margin-top: 0;
+	margin-bottom: -2px;
+	margin-left: -7.5px;
+}
+
+.disabled {
+	cursor: not-allowed;
+	opacity: .3;
+	transition: .1s;
+	text-decoration: none;
+}
+
+.disabled:hover {
+	opacity: .4;
+	text-decoration: none;
+	transition: .1s;
 }
