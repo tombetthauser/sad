@@ -1,4 +1,4 @@
-num = Math.round(Math.random() * 11);
+num = Math.round(Math.random() * 7);
 
 image();
 
