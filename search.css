@@ -101,7 +101,7 @@ p {
 	color: rgba(0,0,0,.5);
 }
 
-.addedContent:nth-of-type(even) {
+.addedContent:nth-of-type(odd) {
 	background: rgba(0,0,0,0.04);
 }
 
