@@ -1,5 +1,5 @@
 var count = (Math.round(Math.random()*100000));
-var initNum = (Math.round(Math.random()*800)) + 200;
+var initNum = (Math.round(Math.random()*400)) + 100;
 var delay = 14500;
 
 var stop = false;
