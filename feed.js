@@ -1,7 +1,9 @@
-var count = (Math.round(Math.random()*1000));
+var count = (Math.round(Math.random()*100000));
+var initNum = (Math.round(Math.random()*800)) + 200;
+var delay = 14500;
+
 var stop = false;
 var adminCount = 0;
-var delay = 13500;
 var num = 0;
 var mfa = 0;
 var year = 0;
@@ -23,7 +25,7 @@ var tid = setInterval(function(){
     readContent();
 },delay);
 
-for(var i = 0; i < 50; i++){
+for(var i = 0; i < initNum; i++){
 	createContent();
 	addContent();
 };
@@ -34,7 +36,7 @@ readContent();
 
 window.addEventListener("keydown", function(e){
     if(e.keyCode === 27 && document.activeElement !== 'text') {
-        alert("feed paused (" + adminCount + ":" + (adminCount - 50) + ")");
+        alert("feed paused (" + adminCount + ":" + (adminCount - initNum) + ":" + delay + ".s)");
     }
 });
 
