@@ -1,6 +1,6 @@
 var count = (Math.round(Math.random()*100000));
 var initNum = (Math.round(Math.random()*400)) + 100;
-var delay = 14500;
+var delay = ((Math.round(Math.random()*5)) + 140)*100;
 
 var stop = false;
 var adminCount = 0;
