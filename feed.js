@@ -36,7 +36,7 @@ readContent();
 
 window.addEventListener("keydown", function(e){
     if(e.keyCode === 27 && document.activeElement !== 'text') {
-        alert("feed paused (" + adminCount + ":" + (adminCount - initNum) + ":" + delay + ".s)");
+        alert("feed paused (" + adminCount + ":" + (adminCount - initNum) + ":" + delay + ")");
     }
 });
 
