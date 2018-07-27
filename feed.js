@@ -34,7 +34,7 @@ readContent();
 
 window.addEventListener("keydown", function(e){
     if(e.keyCode === 27 && document.activeElement !== 'text') {
-        alert("{ " + adminCount + " entries generated : " + (adminCount - 50) + " entries read }");
+        alert("feed paused (" + adminCount + ":" + (adminCount - 50) + ")");
     }
 });
 
