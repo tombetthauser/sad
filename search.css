@@ -116,7 +116,10 @@ p {
 }
 
 #container3 {
+	font-family: sans-serif;
+	font-size: 12px;
 	margin-top: 10px;
+	margin-left: .75%;
 	margin-bottom: 20px;
 }
 
